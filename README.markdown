@@ -27,8 +27,10 @@ You could select the Project and associated User with a single statement:
     var projectAndUser = Project.joinTo( User, {where: 123} );
     
     // You can access either object
-    projectAndUser.User
-    projectAndUser.Project
+    console.log(projectAndUser.User.firstname)
+    if( projectAndUser.Project.id === 123 ) {
+        console.log("Success!");
+    }
 
 What make it useful is being able to filter one Model based on attributes of an 
 associated Model:
