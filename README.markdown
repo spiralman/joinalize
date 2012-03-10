@@ -37,6 +37,6 @@ What make it useful is being able to find one Model based on attributes of anoth
 associated Model:
 
     User.joinTo( Project, {where: {'firstname': 'Tom'}} )
-    .success( function(tomsProjects) -> {
+    .success( function(tomsProject) -> {
         // ...
     });

@@ -1,0 +1,9 @@
+{
+  "name": "joinalize",
+  "version": "0.1.0",
+  "author": "Thomas Stephens <spiralman@gmail.com>",
+  "description": "An extension to Sequelize to add join operations",
+  "devDependencies" : {
+    "qunit": "0.2.9"
+  }
+}
